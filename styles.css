@@ -1,0 +1,36 @@
+/* styles.css */
+
+/* Estilo para bordas em verde fluorescente */
+.product-card {
+    border: 2px solid #00FF00; /* Verde fluorescente */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 16px; /* Espaçamento interno */
+    transition: transform 0.2s; /* Efeito de transição ao passar o mouse */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do card ao passar o mouse */
+}
+
+/* Estilo para parágrafos */
+.highlight {
+    font-size: 1.1em; /* Aumenta o tamanho da fonte em 10% */
+    color: #FF1493; /* Rosa */
+}
+
+/* Estilo para o botão de compra */
+.btn {
+    display: inline-block;
+    background-color: #00FF00; /* Verde fluorescente */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Bordas arredondadas do botão */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove o sublinhado */
+    margin-top: 10px; /* Espaçamento acima do botão */
+    transition: background-color 0.3s; /* Efeito de transição ao passar o mouse */
+}
+
+.btn:hover {
+    background-color: #FF1493; /* Rosa ao passar o mouse */
+}
